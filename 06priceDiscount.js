@@ -6,7 +6,6 @@ function checkPriceDiscount(price) {
   return "No discount";
 }
 
-//test case
 console.log(checkPriceDiscount(100)); //Discount is 20%
 console.log(checkPriceDiscount(50)); //Discount is 10%
 console.log(checkPriceDiscount(10)); //No discount
