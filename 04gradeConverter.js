@@ -18,6 +18,7 @@ function gradeConverter(grade) {
       break;
     case grade >= 70 && grade <= 100:
       letterGrade = "A";
+      break;
     default:
       letterGrade = "Invalid grade";
   }
