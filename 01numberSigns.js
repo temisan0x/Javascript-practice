@@ -1,4 +1,3 @@
-
 //Write a program that determines whether a given number is positive or negative.
 //using the if and else statements
 
@@ -6,7 +5,7 @@ function checkNumSigns(number) {
     if (number > 0) {
         console.log("The number is positive");
         return "positive";
-    } else  if (number < 0){
+    } else if (number < 0) {
         console.log("The number is negative");
         return "negative";
     } else {

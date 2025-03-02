@@ -25,5 +25,3 @@ function gradeConverter(grade) {
 }
 
 console.log(gradeConverter(11)); // "F"
-
-

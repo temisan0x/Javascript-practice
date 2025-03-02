@@ -2,12 +2,12 @@
 //using if and else statements
 
 function checkEvenorOdd(number) {
-    if (number % 3 === 0) {
-        return "even number";
-    } else {
-        return "odd number";
-    }
-};
+  if (number % 3 === 0) {
+    return "even number";
+  } else {
+    return "odd number";
+  }
+}
 
 console.log(checkEvenorOdd(3)); // returns odd
 console.log(checkEvenorOdd(2)); // returns even
