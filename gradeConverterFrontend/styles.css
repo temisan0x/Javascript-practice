@@ -101,6 +101,10 @@ button:hover {
         padding: 15px;
     }
 
+    .calculator-img {
+        max-width: 300px;
+    }
+
     .grade-form {
         max-width: 300px;
     }
