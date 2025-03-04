@@ -28,7 +28,6 @@
         <div class="grade-form">
           <label for="gradeInput">Enter Your Numerical Grade (0-100):</label>
           <input
-            type="number"
             id="gradeInput"
             min="0"
             max="100"
@@ -36,7 +35,10 @@
             aria-required="true"
           />
           <button onclick="convertGrade()">Get Letter Grade</button>
-          <p id="result">Your letter grade will appear here!</p>
+          <div class="result-container">
+            <span id="result">Your letter grade will appear here!</span
+            ><span id="numberChecker"></span>
+          </div>
         </div>
       </div>
     </div>
