@@ -4,9 +4,6 @@
 function gradeConverter(grade) {
   let letterGrade;
   switch (true) {
-    case grade <= 0: 
-      letterGrade = "bruh";
-      break;
     case grade >= 0 && grade <= 44:
       letterGrade = "F";
       break;

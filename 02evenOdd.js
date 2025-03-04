@@ -2,7 +2,7 @@
 //using if and else statements
 
 function checkEvenorOdd(number) {
-  if (number % 3 === 0) {
+  if (number % 2 === 0) {
     return "even number";
   } else {
     return "odd number";
